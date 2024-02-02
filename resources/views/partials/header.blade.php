@@ -2,8 +2,6 @@
     <h1 id="typewriter" class="text-8xl font-thin text-center text-white my-20 mt-52"></h1>
 </div>
 
-
-
 <script>
     const textToType = "Hey my name is Sud!";
     const typingSpeed = 100; // in milliseconds

@@ -7,7 +7,6 @@
 
         <div class="text-small font-thin text-white" id="clock"></div>
 
-
         <!-- Responsive Menu Button -->
         <button id="menuButton" class="lg:hidden text-white focus:outline-none">
             <svg class="h-6 w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"
@@ -18,11 +17,13 @@
         </button>
 
         <!-- Responsive Menu -->
+        <div class="nav-menu">
         <div id="mobileMenu" class="hidden font-thin lg:flex flex-col lg:flex-row space-x-4">
-            <a href="#" class="text-white">About me</a>
-            <a href="#" class="text-white">How it all started</a>
-            <a href="#" class="text-white">My work</a>
-            <a href="#" class="text-white">Contact me</a>
+            <a href="#" class="link-1 text-white">About me</a>
+            <a href="#" class="link-2 text-white">How it all started</a>
+            <a href="#" class="link-3 text-white">My work</a>
+            <a href="#" class="link-4 text-white">Contact me</a>
+        </div>
         </div>
     </div>
 </nav>
