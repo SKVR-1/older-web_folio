@@ -7,6 +7,7 @@
         <title>SVKR::Portfolio</title>
         <script src="js/script.js"defer></script>
         <script src="js/app.js" defer></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.2/gsap.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
         <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
     </head>

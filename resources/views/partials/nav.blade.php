@@ -1,4 +1,4 @@
-<nav class="p-4 mx-auto">
+<div class="nav-main">
     <div class="container mx-auto flex justify-between items-center">
         <!-- Logo -->
         <div class="text-white font-thin text-lg">
@@ -18,15 +18,14 @@
 
         <!-- Responsive Menu -->
         <div class="nav-menu">
-        <div id="mobileMenu" class="hidden font-thin lg:flex flex-col lg:flex-row space-x-4">
-            <a href="#" class="link-1 text-white">About me</a>
-            <a href="#" class="link-2 text-white">How it all started</a>
-            <a href="#" class="link-3 text-white">My work</a>
-            <a href="#" class="link-4 text-white">Contact me</a>
-        </div>
+          <div class="hidden font-thin lg:flex flex-col lg:flex-row space-x-4">
+            <a href="#" class="link text-white">About me</a>
+            <a href="#" class="link text-white">How it all started</a>
+            <a href="#" class="link text-white">My work</a>
+            <a href="#" class="link text-white">Contact me</a>
         </div>
     </div>
-</nav>
+</div>
 
 
 <script>

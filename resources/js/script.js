@@ -1,5 +1,4 @@
-gsap.from ('.nav-menu', {duration: 1, Y: '-100%'})
+gsap.from('.nav-main', { duration: 1, y: '-100%', ease:'bounce' })
 
 
 
-ssss
