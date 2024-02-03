@@ -5,6 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         @vite('resources/css/app.css')
         <title>SVKR::Portfolio</title>
+        <link href="css/main.css" rel="stylesheet">
         <script src="js/script.js"defer></script>
         <script src="js/app.js" defer></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.2/gsap.min.js"></script>
@@ -17,6 +18,9 @@
         <section>
             @include('partials.nav')
         <section>
+
+        <div class="cursor"></div>
+        <ul class="cursor-scale small"></ul>
 
         <section>
         @include('partials.header')
@@ -37,6 +41,5 @@
 
 
 
-    <style>
 
 

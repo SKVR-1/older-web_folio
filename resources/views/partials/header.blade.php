@@ -1,8 +1,13 @@
-<div class="header">
-    <h1 id="typewriter" class="text-8xl font-thin text-center text-white my-20 mt-52"></h1>
-</div>
+<div class="cursor"></div>
 
-<script>
+<section class="hero-text">
+        <div class="hero-text-content">
+            <h1 class="cursor-scale">Hey my name is Sud</h1>
+            <h2 class="cursor-scale small">Animation</h2>
+        </div>
+    </section>
+
+<!-- <script>
     const textToType = "Hey my name is Sud!";
     const typingSpeed = 100; // in milliseconds
 
@@ -19,4 +24,4 @@
 
     // Start typing when the page is loaded
     document.addEventListener('DOMContentLoaded', typeWriter);
-</script>
+</script> -->
