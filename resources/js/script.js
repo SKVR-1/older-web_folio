@@ -1,41 +1,28 @@
-gsap.from('.main-header-nav', { duration: 1, y: '-100%', ease:'bounce' })
+let tl = gsap.timeline ({
+  ScrollTrigger:{
+    trigger: ".two",
+    start:"20% 50%",
+    end: "100% 50%",
+    markers: true,
+    scrub: 1,
+  },
+});
+tl.to(".intro-hover",{
+  width:"100%",
+})
 
 
 
 
-// var cursor = document.querySelector('.cursor'),
-//     cursorScale = document.querySelectorAll('.cursor-scale'),
-//     mouseX = 0,
-//     mouseY = 0
+const lenis = new Lenis()
 
-// gsap.to({}, 0.016, {
-//     repeat: -1,
+lenis.on('scroll', (e) => {
+  console.log(e)
+})
 
-//     onRepeat: function () {
-//         gsap.set(cursor, {
-//             css: {
-//                 left: mouseX,
-//                 top: mouseY
-//             }
-//         })
-//     }
-// });
+function raf(time) {
+  lenis.raf(time)
+  requestAnimationFrame(raf)
+}
 
-// window.addEventListener("mousemove", function (e) {
-//     mouseX = e.clientX;
-//     mouseY = e.clientY
-// });
-
-// cursorScale.forEach(link => {
-//     link.addEventListener('mouseleave', () => {
-//         cursor.classList.remove('grow');
-//         cursor.classList.remove('grow-small');
-//     });
-//     link.addEventListener('mousemove', () => {
-//         cursor.classList.add('grow');
-//         if(link.classList.contains('small')){
-//             cursor.classList.remove('grow');
-//             cursor.classList.add('grow-small');
-//         }
-//     });
-// });
+requestAnimationFrame(raf)

@@ -5,6 +5,7 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { ScrollToPlugin } from "gsap/ScrollToPlugin";
 import { MotionPathPlugin } from "gsap/MotionPathPlugin";
 import { EaselPlugin } from "gsap/EaselPlugin";
+import Lenis from '@studio-freight/lenis'
 
 
 gsap.registerPlugin(Flip,ScrollTrigger,ScrollToPlugin,MotionPathPlugin,EaselPlugin);
