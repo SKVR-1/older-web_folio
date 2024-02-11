@@ -49,8 +49,6 @@ gsap.registerPlugin(Flip,ScrollTrigger,ScrollToPlugin,MotionPathPlugin,EaselPlug
       });
   });
   
-
-
   
   
 

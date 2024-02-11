@@ -28,14 +28,14 @@
                     <div class="text-area-two">
                          Welcome to my digital space!
                         <br>I'm Sud, a seasoned<br>front-End Developer + creative 
-                        <p class="text-2xl font-light">With a background in graphic and web design, I bring a wealth of experience to craft engaging online experiences.<br>
+                        <p class="text-3xl font-light">With a background in graphic and web design, I bring a wealth of experience to craft engaging online experiences.<br>
                          Explore my journey and the projects that define my commitment to innovation in web development.</p>
                     </div>
 
                     <div class="text-area-two-clone">
                          Welcome to my digital space!
                         <br>I'm Sud, a seasoned<br>front-End Developer + creative 
-                        <p class="text-2xl font-light">With a background in graphic and web design, I bring a wealth of experience to craft engaging online experiences.<br>
+                        <p class="text-3xl font-light">With a background in graphic and web design, I bring a wealth of experience to craft engaging online experiences.<br>
                          Explore my journey and the projects that define my commitment to innovation in web development.</p>
                     </div>
                 </div>
@@ -44,6 +44,16 @@
                          Welcome to my digital space!
                         <br>I'm Sud, a seasoned<br>front-End Developer + creative 
                     </div>
+              </div>
+
+              <div class="section-three text-white flex w-1/4">
+                <div class="grid-col grid-col-2">
+                    <div class="text-4xl text-area-about mb-4">Raised in Wolverhampton, my journey commenced with a fervor for Fine Art, drawing inspiration from the likes of Picasso, Dali, Monet, and other prominent figures.</div>
+                
+                    <div class="text-area-about mb-4">Subsequently, my trajectory shifted towards graphic design, with influences drawn from the works of Neville Brody and David Carson. </div>
+                        
+                    <div class="text-area-about">This marked the inception of my career as a graphic designer, where I concurrently nurtured an interest in web development. Armed with a versatile skill set encompassing both graphics and web proficiency.</div>
+                </div>
               </div>
     </body>
 </html>

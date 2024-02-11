@@ -33,6 +33,7 @@ export default {
       'white': '#fff',
       'purple': '#7e5bef',
       'orange': '#ff7849',
+      'pink': '#e91e63',
       'green': '#13ce66',
       'yellow': '#ffc82c',
       'gray-dark': '#273444',
@@ -86,6 +87,7 @@ export default {
       html: ['poppins', 'sans-serif'],
       
     },
+    
     extend: {
       spacing: {
         '128': '32rem',

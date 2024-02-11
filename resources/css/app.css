@@ -19,6 +19,14 @@ html, body {
     min-height:100vh;
 }
 
+.text-area-about > div {
+    transform: translateY(100%);
+}
+
+.text-area-about  {
+overflow: hidden;
+
+}
 
 .section-one {
     width:100%;
@@ -38,6 +46,19 @@ html, body {
 
         
 }
+
+.section-three {
+    position: relative;
+    align-items: center;
+    width:100%;
+    overflow: hidden!important;
+    left:10%;
+    height:100vh;
+    background-color: #000;
+
+        
+}
+
 .text-area-two {
     position:absolute;
     font-size:3.5vw;
@@ -101,13 +122,13 @@ html, body {
     background: #000;
 }
 .hero-text h1 {
-    font-size: 8vw;
+    font-size: 7vw;
     line-height: 1;
     color:#fff;
     -webkit-background-clip: text;
 }
 .hero-text h2{
-    font-size: 5vw;
+    font-size: 2vw;
     display: inline-flex;
 }
 
@@ -118,7 +139,7 @@ html, body {
     margin-left: -40px;
     margin-top: -20px;
     border-radius: 50%;
-    border: 2px solid #16a085;
+    /* border: 2px solid #16a085; */
     transition: transform .3s ease;
     transform-origin: center center;
     pointer-events: none;
