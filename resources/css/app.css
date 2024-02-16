@@ -26,6 +26,7 @@ html, body {
 .text-area-about  {
 overflow: hidden;
 
+
 }
 
 .section-one {
@@ -44,20 +45,31 @@ overflow: hidden;
     background-color: #fff;
     overflow: hidden!important;
 
-        
 }
 
 .section-three {
-    position: relative;
     align-items: center;
     width:100%;
+    display: flex;
     overflow: hidden!important;
-    left:10%;
     height:100vh;
+    color:#fff;
     background-color: #000;
 
         
 }
+/* 
+
+.section-four {
+    align-items: center;
+    width:100%;
+    display: flex;
+    overflow: hidden!important;
+    height:100vh;
+    background-color: #000;
+
+        
+} */
 
 .text-area-two {
     position:absolute;
@@ -67,8 +79,8 @@ overflow: hidden;
     left:10%;
     width:100%;
 
-
 }
+
 .text-area-two-clone {
     position:absolute;
     left:10%;
@@ -82,7 +94,31 @@ overflow: hidden;
 }
 
 
+.text-area-three {
+    position:absolute;
+    font-size:3.5vw;
+    font-weight: 600;
+    opacity: .1!important;
+    left:10%;
+    width:100%;
 
+}
+
+.text-area-three-clone {
+    position:absolute;
+    left:10%;
+    font-size:3.5vw;
+    white-space: nowrap;
+    font-weight: 600;
+    width:0%;
+    opacity: 1!important;
+    overflow:hidden;
+
+}
+
+.raised-text {
+    transform: translateY(100%);
+  }
 
 
 .marquee {
