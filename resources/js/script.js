@@ -49,15 +49,30 @@ tl.to('.raised-text', {
   stagger: 1});
 
 
-  gsap.to('.how-started', {
-    x: '100%', // Move the text horizontally
-    duration: 1, // Duration of the animation
-    repeat: 1, // Repeat indefinitely
-    scrollTrigger: {
-      trigger: '.section-three', // Trigger the animation when the section comes into view
-      start: 'top 50%', // Start the animation when the top of the section reaches the middle of the viewport
-      end: 'bottom top', // End the animation when the bottom of the section reaches the top of the viewport
-      scrub: true, // Smooth scrolling
-      markers: true // Add markers for debugging
-    }
+  // gsap.to('.how-started', {
+  //   x: '100%', // Move the text horizontally
+  //   duration: 1, // Duration of the animation
+  //   repeat: 1, // Repeat indefinitely
+  //   scrollTrigger: {
+  //     trigger: '.section-three', // Trigger the animation when the section comes into view
+  //     start: 'top 50%', // Start the animation when the top of the section reaches the middle of the viewport
+  //     end: 'bottom top', // End the animation when the bottom of the section reaches the top of the viewport
+  //     scrub: true, // Smooth scrolling
+  //     markers: true // Add markers for debugging
+  //   }
+  // });
+
+
+  gsap.set(".how-started", {
+    x: (i) => i * 300
+  });
+  
+  gsap.to(".how-started", {
+    duration: 20,
+    ease: "none",
+    x: "+=2000", //move each box 500px to right
+    modifiers: {
+      x: gsap.utils.unitize(x => parseFloat(x) % 1200) //force x value to be between 0 and 500 using modulus
+    },
+    repeat: -1
   });

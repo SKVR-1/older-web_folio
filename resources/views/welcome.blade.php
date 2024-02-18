@@ -40,24 +40,32 @@
                 </div>
 
                 <div class="how-started flex gap-10">
-                    <p class="text-5xl font-bold italic text-white">HOW IT ALL STARTED</p>
+                    <p class="text-5xl font-bold italic text-wh ite">HOW IT ALL STARTED</p>
                     <p class="text-5xl font-bold italic text-white">HOW IT ALL STARTED</p>
                     <p class="text-5xl font-bold italic text-white">HOW IT ALL STARTED</p>
                     <p class="text-5xl font-bold italic text-white">HOW IT ALL STARTED</p>
                 </div>
+                <div class="wolves-aye-we text-8xl text-center mt-20 font-extrabold">Wolves Aye <em>We</em></div>
                 <div class="section-three">
-                    <div class="grid grid-cols-2 gap-80 place-items-center h-56 mx-auto">
-                    <div>01</div>
+                    <div class="grid grid-cols-2 gap-80 place-items-center  mx-auto">
+                    <div class="bg-gray w-1/2 h-1/2">
+                         01
+                       
+                    </div>
                     <div>
                         <p class="raised-text text-2xl leading-10 font-thin mr-20">Raised in Wolverhampton, my journey commenced with a fervor for Fine Art, drawing inspiration from the likes of Picasso, Dali, Monet, and other prominent figures. Subsequently, my trajectory shifted towards graphic design, with influences drawn from the works of Neville Brody and David Carson. </p>
                         </p>
                     </div>
                  </div>
+                 
               </div>
 
-
-
-
+              <div class="how-started flex gap-10">
+                    <p class="text-5xl font-bold italic text-white">HOW IT ALL STARTED</p>
+                    <p class="text-5xl font-bold italic text-white">HOW IT ALL STARTED</p>
+                    <p class="text-5xl font-bold italic text-white">HOW IT ALL STARTED</p>
+                    <p class="text-5xl font-bold italic text-white">HOW IT ALL STARTED</p>
+                </div>
            
     </body>
 </html>

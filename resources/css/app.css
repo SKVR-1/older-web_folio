@@ -118,8 +118,13 @@ overflow: hidden;
 
 .raised-text {
     transform: translateY(100%);
-  }
+}
 
+.wolves-aye-we {
+    -webkit-text-fill-color: white; /* Will override color (regardless of order) */
+    
+    -webkit-text-stroke-color: black;
+}
 
 .marquee {
 	display: flex;
