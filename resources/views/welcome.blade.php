@@ -47,15 +47,25 @@
                 </div>
                 <div class="wolves-aye-we text-8xl text-center mt-20 font-extrabold">Wolves Aye <em>We</em></div>
                 <div class="section-three">
-                    <div class="grid grid-cols-2 gap-80 place-items-center  mx-auto">
-                    <div class="bg-gray w-1/2 h-1/2">
-                         01
-                       
+                    <div class="grid grid-cols-2 gap-30 place-items-center  mx-auto">
+                    <div class=" w-1/2 h-1/2">
+                    <div class='reveal'>
+                        <img src='https://images.unsplash.com/photo-1526413232644-8a40f03cc03b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80%20634w'>
+                     </div>
                     </div>
                     <div>
                         <p class="raised-text text-2xl leading-10 font-thin mr-20">Raised in Wolverhampton, my journey commenced with a fervor for Fine Art, drawing inspiration from the likes of Picasso, Dali, Monet, and other prominent figures. Subsequently, my trajectory shifted towards graphic design, with influences drawn from the works of Neville Brody and David Carson. </p>
-                        </p>
+                    </p>
+                    
+                    <div class="education w-40 h-20 mt-4">
+                        <div class="text-2xl uppercase">Education</div>
+
                     </div>
+                    
+                </div>
+
+
+
                  </div>
                  
               </div>

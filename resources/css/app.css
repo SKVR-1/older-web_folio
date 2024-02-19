@@ -52,7 +52,7 @@ overflow: hidden;
     width:100%;
     display: flex;
     overflow: hidden!important;
-    height:100vh;
+    height:90vh;
     color:#fff;
     background-color: #000;
 
@@ -122,7 +122,6 @@ overflow: hidden;
 
 .wolves-aye-we {
     -webkit-text-fill-color: white; /* Will override color (regardless of order) */
-    
     -webkit-text-stroke-color: black;
 }
 
@@ -135,7 +134,17 @@ overflow: hidden;
 	justify-content: flex-end;
 	background: #111;
 	
+
 }
+
+.reveal {
+    visibility: hidden;
+    position: relative;
+    max-width: 500px;
+    margin-top:-290px;
+    overflow: hidden;
+  }
+  
 	
 .header {
     position: fixed;

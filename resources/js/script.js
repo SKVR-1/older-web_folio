@@ -44,9 +44,11 @@ tl2.from(".text-area-three-clone", {
 let tl = gsap.timeline({
   delay: 0.7});
 
-tl.to('.raised-text', {
+tl.to('.raised-text',  {
   duration:2, y:0, 
   stagger: 1});
+
+  
 
 
   // gsap.to('.how-started', {
@@ -76,3 +78,29 @@ tl.to('.raised-text', {
     },
     repeat: -1
   });
+
+
+
+let revealContainers = document.querySelectorAll(".reveal");
+
+revealContainers.forEach((container) => {
+  let image = container.querySelector("img");
+  let tl = gsap.timeline({
+    scrollTrigger: {
+      trigger: container,
+      toggleActions: "restart none none reset"
+    }
+  });
+
+  tl.set(container, { autoAlpha: 1 });
+  tl.from(container, 1.5, {
+    xPercent: -100,
+    ease: Power2.out
+  });
+  tl.from(image, 1.5, {
+    xPercent: 100,
+    scale: 1.3,
+    delay: -1.5,
+    ease: Power2.out
+  });
+});
