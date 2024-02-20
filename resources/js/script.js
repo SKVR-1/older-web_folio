@@ -41,28 +41,24 @@ tl2.from(".text-area-three-clone", {
 });
 
 
+
+
 let tl = gsap.timeline({
-  delay: 0.7});
+  delay: 0.7
+});
 
-tl.to('.raised-text',  {
-  duration:2, y:0, 
-  stagger: 1});
+tl.to('.raised-text', {
+  duration: 2,
+  y: 0,
+  stagger: 1
+})
+.from('.education', {
+  opacity: 0, 
+  duration: 1, // Adjust the duration as needed
+  stagger: 0.5, // Adjust the stagger if necessary
+  ease: "power2.out" // Optional: Change the easing function if needed
+});
 
-  
-
-
-  // gsap.to('.how-started', {
-  //   x: '100%', // Move the text horizontally
-  //   duration: 1, // Duration of the animation
-  //   repeat: 1, // Repeat indefinitely
-  //   scrollTrigger: {
-  //     trigger: '.section-three', // Trigger the animation when the section comes into view
-  //     start: 'top 50%', // Start the animation when the top of the section reaches the middle of the viewport
-  //     end: 'bottom top', // End the animation when the bottom of the section reaches the top of the viewport
-  //     scrub: true, // Smooth scrolling
-  //     markers: true // Add markers for debugging
-  //   }
-  // });
 
 
   gsap.set(".how-started", {

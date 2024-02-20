@@ -28,14 +28,19 @@
                     <div class="text-area-two">
                          Welcome to my digital space!
                         <br>I'm Sud, a seasoned<br>front-End Developer + creative 
-                        <p class="text-3xl font-thin">With a background in graphic and web design, I bring a wealth of experience to craft engaging online experiences.<br>
-                         Explore my journey and the projects that define my commitment to innovation in web development.</p>
+                        <p class="text-3xl font-thin">With a background in graphic and web design, I bring <br> a wealth of experience to craft engaging online experiences.<br>
+                         Explore my journey and the projects that define <br> my commitment to innovation in web development.</p>
                     </div>
                     <div class="text-area-two-clone">
                          Welcome to my digital space!
                         <br>I'm Sud, a seasoned<br>front-End Developer + creative 
-                        <p class="text-3xl font-thin">With a background in graphic and web design, I bring a wealth of experience to craft engaging online experiences.<br>
-                         Explore my journey and the projects that define my commitment to innovation in web development.</p>
+                         
+                    
+                        <p class="text-3xl font-thin">With a background in graphic and web design,
+                           I bring <br> a wealth of experience to craft engaging online experiences.<br>
+                           Explore my journey and the projects that define<br>  my commitment to innovation
+                           in web development.
+                        </p>
                     </div>
                 </div>
 
@@ -54,12 +59,14 @@
                      </div>
                     </div>
                     <div>
-                        <p class="raised-text text-2xl leading-10 font-thin mr-20">Raised in Wolverhampton, my journey commenced with a fervor for Fine Art, drawing inspiration from the likes of Picasso, Dali, Monet, and other prominent figures. Subsequently, my trajectory shifted towards graphic design, with influences drawn from the works of Neville Brody and David Carson. </p>
+                        <p class="-mt-40 raised-text text-2xl leading-10 font-thin mr-20">Raised in Wolverhampton, my journey commenced with a fervor for Fine Art, drawing inspiration from the likes of Picasso, Dali, Monet, and other prominent figures. Subsequently, my trajectory shifted towards graphic design, with influences drawn from the works of Neville Brody and David Carson. </p>
                     </p>
                     
-                    <div class="education w-40 h-20 mt-4">
+                    <div class="raised-text mt-8">
                         <div class="text-2xl uppercase">Education</div>
-
+                        <p>1991 - 1996: Colton Hills School with 5 GCSE's</p>
+                        <p>1996 - 1999: Dudley College GNVQ  Art & Design Grade: Merit</p>
+                        <p>1999 - 2002: University of Wolverhampton BA (Hons) Graphic Communication Grade: 2:1</p>
                     </div>
                     
                 </div>
