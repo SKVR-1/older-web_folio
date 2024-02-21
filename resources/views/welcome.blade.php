@@ -44,8 +44,8 @@
                     </div>
                 </div>
 
-                <div class="how-started flex gap-10">
-                    <p class="text-5xl font-bold italic text-wh ite">HOW IT ALL STARTED</p>
+                <div class="how-it-started flex gap-10">
+                    <p class="text-5xl font-bold italic text-white">HOW IT ALL STARTED</p>
                     <p class="text-5xl font-bold italic text-white">HOW IT ALL STARTED</p>
                     <p class="text-5xl font-bold italic text-white">HOW IT ALL STARTED</p>
                     <p class="text-5xl font-bold italic text-white">HOW IT ALL STARTED</p>
@@ -58,31 +58,26 @@
                         <img src='https://images.unsplash.com/photo-1526413232644-8a40f03cc03b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80%20634w'>
                      </div>
                     </div>
-                    <div>
-                        <p class="-mt-40 raised-text text-2xl leading-10 font-thin mr-20">Raised in Wolverhampton, my journey commenced with a fervor for Fine Art, drawing inspiration from the likes of Picasso, Dali, Monet, and other prominent figures. Subsequently, my trajectory shifted towards graphic design, with influences drawn from the works of Neville Brody and David Carson. </p>
-                    </p>
-                    
-                    <div class="raised-text mt-8">
-                        <div class="text-2xl uppercase">Education</div>
-                        <p>1991 - 1996: Colton Hills School with 5 GCSE's</p>
-                        <p>1996 - 1999: Dudley College GNVQ  Art & Design Grade: Merit</p>
-                        <p>1999 - 2002: University of Wolverhampton BA (Hons) Graphic Communication Grade: 2:1</p>
+
+                    <div class="raised-block">
+                        <p class="raised-text text-2xl leading-10 font-thin mr-20">Raised in Wolverhampton, my journey commenced with a fervor for Fine Art, drawing inspiration from the likes of Picasso, Dali, Monet, and other prominent figures. Subsequently, my trajectory shifted towards graphic design, with influences drawn from the works of Neville Brody and David Carson. </p>
+                        </p>
+                        <div class="education mt-8">
+                            <div class="text-2xl uppercase">Education</div>
+                            <p>1991 - 1996: Colton Hills School with 5 GCSE's</p>
+                            <p>1996 - 1999: Dudley College GNVQ  Art & Design Grade: Merit</p>
+                            <p>1999 - 2002: University of Wolverhampton BA (Hons) Graphic Communication Grade: 2:1</p>
+                        </div>
                     </div>
-                    
                 </div>
+          </div>
 
-
-
-                 </div>
-                 
-              </div>
-
-              <div class="how-started flex gap-10">
-                    <p class="text-5xl font-bold italic text-white">HOW IT ALL STARTED</p>
-                    <p class="text-5xl font-bold italic text-white">HOW IT ALL STARTED</p>
-                    <p class="text-5xl font-bold italic text-white">HOW IT ALL STARTED</p>
-                    <p class="text-5xl font-bold italic text-white">HOW IT ALL STARTED</p>
-                </div>
+            <div class="how-started flex gap-10">
+                <p class="text-5xl font-bold italic text-white">HOW IT ALL STARTED</p>
+                <p class="text-5xl font-bold italic text-white">HOW IT ALL STARTED</p>
+                <p class="text-5xl font-bold italic text-white">HOW IT ALL STARTED</p>
+                <p class="text-5xl font-bold italic text-white">HOW IT ALL STARTED</p>
+            </div>
            
     </body>
 </html>
