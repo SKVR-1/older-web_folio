@@ -2,8 +2,8 @@
 
     <section class="hero-text">
         <div class="hero-text-content">
-            <h1 class="cursor-scale font-bold	bg-gradient-to-r text-white cursor-scale pb-4">My Name is Sud</h1>
-            <h2 class="cursor-scale font-medium bg-gradient-to-r text-white cursor-scale">I am a designer <span class="text-pink"> + </span> Front End Developer</h2>
+            <h1 class="cursor-scale font-bold	bg-gradient-to-r text-white cursor-scale pb-4">My Name is Sud </h1>
+            <h2 class="cursor-scale font-medium bg-gradient-to-r text-white cursor-scale">I am a designer <span class="text-pink"> + </span> Front End Developer <span class="flex"> &#129304;</span></h2>
         </div>
     </section>
 

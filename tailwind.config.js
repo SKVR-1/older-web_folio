@@ -26,6 +26,10 @@ export default {
       
     },
 
+    outline: {
+      whiteoutline: '1px solid #fffff',
+
+    },
     
     colors: {
       'blue': '#1fb6ff',

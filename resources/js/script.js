@@ -1,27 +1,17 @@
 // Use strict mode to catch common coding mistakes
 'use strict';
 
-// Remove unnecessary Lenis scroll event listener
-// const lenis = new Lenis();
-// lenis.on('scroll', (e) => {
-//   console.log(e);
-// });
-
-// Optimize the requestAnimationFrame function
 function raf() {
   lenis.raf();
   requestAnimationFrame(raf);
 }
 requestAnimationFrame(raf);
 
-// GSAP timelines optimizations
-// Define common options for scrollTrigger
 const scrollTriggerOptions = {
   markers: true,
   scrub: 1,
 };
 
-// Define a function to create GSAP timelines
 function createTimeline(trigger, target, start, end) {
   return gsap.timeline({
     scrollTrigger: {
@@ -36,6 +26,7 @@ function createTimeline(trigger, target, start, end) {
 // Define timeline animations for text areas
 const tl1 = createTimeline('.text-area-two', '.text-area-two-clone', '150% 50%', '100% 20%');
 const tl2 = createTimeline('.text-area-three', '.text-area-three-clone', '110% 50%', '100% 20%');
+const tl3 = createTimeline('.wolves-aye-we', '.wolves-aye-we', '100% 50%', '100% 20%');
 
 // Define timeline animations for reveal containers
 const revealContainers = document.querySelectorAll('.reveal');
@@ -47,17 +38,23 @@ revealContainers.forEach((container) => {
       toggleActions: 'restart none none reset',
     },
   })
-    .from('.how-it-started', { duration: 1, opacity: 0, x: 150, stagger: 0.25 })
-    .to('.raised-text', { duration: 2, yPercent: -150, ease: 'slow(0.7,0.7,false)', delay: 0, stagger: 20 })
-    .from('.education', { duration: 1, delay: 2.5, ease: 'slow(0.7,0.7,false)', stagger: 0.25, opacity: 0, y: 150 })
+
+
+    .from('.how-it-all-started', { duration: 1, opacity: 0, x: 150, stagger: 0.25, x: '100%', ease:'linear' })
+    .from('.raised-text', { opacity:0, yPercent: -1500, delay: .10, duration: 1 })
+    .to('.raised-text', { duration: 1, yPercent: -150, ease: 'slow(0.7,0.7,false)', delay: 0, stagger: 20 })
+    .from('.wolves-aye-we', { duration: 1, xPercent: -120, ease: 'slow(0.7,0.7,false)', delay: 0, stagger: 10 })
+    .to('.wolves-aye-we', { duration: 1, xPercent: 0, backgroundColor:"#FF3659", padding:"10", ease: 'slow(0.7,0.7,false)', delay: 0, stagger: 10 })
     .set(container, { autoAlpha: 1 })
     .from(container, { duration: 1.5, xPercent: -100, ease: 'power2.out' })
-    .from(image, { duration: 1.5, xPercent: 100, scale: 1.3, delay: -1.5, ease: 'power2.out' });
+    .from(image, { duration: 1.5, xPercent: 100, scale: 1.3, delay: -1.5, ease: 'power2.out' })
+
+  
+
+  .from('.selected-work', { duration: 1, xPercent: -120, ease: 'slow(0.7,0.7,false)', delay: 0, stagger: 10 })
+  .to('.selected-work', { duration: 1, xPercent: 0, backgroundColor:"#FF3659", padding:"10", ease: 'slow(0.7,0.7,false)', delay: 0, stagger: 10 })
+
 });
-
-
-
-
 
 // const lenis = new Lenis()
 
