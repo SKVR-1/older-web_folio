@@ -51,7 +51,7 @@ revealContainers.forEach((container) => {
 
   
 
-  .from('.selected-work', { duration: 1, xPercent: -120, ease: 'slow(0.7,0.7,false)', delay: 0, stagger: 10 })
+  .from('.selected-work', { duration: 1, xPercent: -290, ease: 'slow(0.7,0.7,false)', delay: 0, stagger: 10 })
   .to('.selected-work', { duration: 1, xPercent: 0, backgroundColor:"#FF3659", padding:"10", ease: 'slow(0.7,0.7,false)', delay: 0, stagger: 10 })
 
 });

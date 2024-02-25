@@ -88,7 +88,7 @@
            
             <!--section-4-->
             
-            <div class="flex justify-center">
+            <div class="section-work flex justify-center">
                 <p class="selected-work text-8xl text-center mt-10 font-extrabold absolute">Selected <em>Work</em></p> 
             </div>   
 
