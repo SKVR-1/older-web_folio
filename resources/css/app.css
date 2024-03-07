@@ -47,6 +47,7 @@ overflow: hidden;
 
 }
 
+
 .section-three {
     align-items: center;
     width:100%;
@@ -70,28 +71,31 @@ overflow: hidden;
 }
 
 
+.slide-show {
+    display: flex;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+  }
+
+  .work-1 {
+    min-width: 200px;
+    height: 200px;
+    background-color: #ccc;
+    scroll-snap-align: center;
+    flex: 0 0 auto;
+    margin-right: 20px;
+  }
+
 
 .text-area-two {
     position:absolute;
     font-size:3.5vw;
     font-weight: 600;
-    opacity: .1!important;
     left:10%;
     width:100%;
 
 }
 
-.text-area-two-clone {
-    position:absolute;
-    left:10%;
-    font-size:3.5vw;
-    white-space: nowrap;
-    font-weight: 600;
-    width:0%;
-    opacity: 1!important;
-    overflow:hidden;
-
-}
 
 
 .text-area-three {
@@ -192,7 +196,10 @@ p.outline-text, span.outline-text {
     -webkit-background-clip: text;
 }
 .hero-text h2{
-    font-size: 2vw;
+    font-size: 1.1vw;
+    font-weight: 200;
+    text-align: center;
+    margin:auto;
     display: inline-flex;
 }
 

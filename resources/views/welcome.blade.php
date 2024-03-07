@@ -30,35 +30,26 @@
                
                 <!--section-2-->
                 <div class="section-two">
-                    <div class="text-area-two">
+                    <div class="welcome-to-my-digital-space text-area-two">
                          Welcome to my digital space!
                         <br>I'm Sud, a seasoned<br>front-End Developer <span class="text-pink"> + </span> creative 
                         <p class="text-3xl font-thin">With a background in graphic and web design, I bring <br> a wealth of experience to craft engaging online experiences.<br>
                          Explore my journey and the projects that define <br> my commitment to innovation in web development.</p>
                     </div>
-                    <div class="text-area-two-clone">
-                         Welcome to my digital space!
-                        <br>I'm Sud, a seasoned<br>front-End Developer + creative 
-                         
-                    
-                        <p class="text-3xl font-thin">With a background in graphic and web design,
-                           I bring <br> a wealth of experience to craft engaging online experiences.<br>
-                           Explore my journey and the projects that define<br>  my commitment to innovation
-                           in web development.
-                        </p>
                     </div>
                 </div>
                  <!--end-->
 
                 <!--section-3-->
+                
+                <div class="wolves-aye-we text-8xl text-center font-extrabold">Wolves Aye <em>We</em></div>
                 <div class="how-it-all-started flex gap-10">
                     <p class="outline-text text-7xl font-bold italic">HOW IT ALL STARTED</p>
                     <p class="outline-text text-7xl font-bold italic">HOW IT ALL STARTED</p>
                     <p class="outline-text text-7xl font-bold italic">HOW IT ALL STARTED</p>
                     <p class="outline-text text-7xl font-bold italic">HOW IT ALL STARTED</p>
                 </div>
-               
-                <div class="wolves-aye-we text-8xl text-center mt-20 font-extrabold">Wolves Aye <em>We</em></div>
+                
                     <div class="section-three">
                         <div class="grid grid-cols-2 gap-30 place-items-center  mx-auto">
                         <div class=" w-1/2 h-1/2">
@@ -88,8 +79,8 @@
            
             <!--section-4-->
             
+            <div class="wolves-aye-we text-8xl text-center mt-20 font-extrabold">Selected <em>Work</em></div>
             <div class="section-work flex justify-center">
-                <p class="selected-work text-8xl text-center mt-10 font-extrabold absolute">Selected <em>Work</em></p> 
             </div>   
 
             <div class="section-four">
