@@ -59,13 +59,13 @@
                         </div>
 
                         <div class="raised-block">
-                            <p class="raised-text text-2xl leading-10 font-thin mr-20">Raised in Wolverhampton, my journey commenced with a fervor for Fine Art, drawing inspiration from the likes of Picasso, Dali, Monet, and other prominent figures. Subsequently, my trajectory shifted towards graphic design, with influences drawn from the works of Neville Brody and David Carson. Adding to this, I've always been willing to take on new challenges, leading me to venture into graphic design, followed by digital, and then web development. </p>
+                            <p class="raised-text text-2xl leading-10 font-thin mt:15 mr-20">Raised in Wolverhampton, my journey commenced with a fervor for Fine Art, drawing inspiration from the likes of Picasso, Dali, Monet, and other prominent figures. Subsequently, my trajectory shifted towards graphic design, with influences drawn from the works of Neville Brody and David Carson. Adding to this, I've always been willing to take on new challenges, leading me to venture into graphic design, followed by digital, and then web development. </p>
                             </p>
                         </div>
                     </div>
                 </div>
 
-                <div class="how-it-all-started flex gap-10">
+                <div class="how-it-all-started flex gap-10 ">
                 <p class="outline-text text-7xl font-bold italic">HOW IT ALL STARTED</p>
                 <p class="outline-text text-7xl font-bold italic">HOW IT ALL STARTED</p>
                 <p class="outline-text text-7xl font-bold italic">HOW IT ALL STARTED</p>
@@ -75,43 +75,96 @@
 
             <!--end-->
 
-      
            
             <!--section-4-->
-            
-            <div class="wolves-aye-we text-8xl text-center mt-20 font-extrabold">Selected <em>Work</em></div>
-            <div class="section-work flex justify-center">
-            </div>   
-
-            <div class="section-four">
-            <div class="mx-auto">
-                    <div class="flex grid-cols-4 gap-20 text-center">
-                        <div class="work-1">01</div>
-                        <div class="work-1">01</div>
-                        <div class="work-1">01</div>
-                        <div class="work-1">01</div>
-                        <div class="work-1">01</div>
-                        <div class="work-1">01</div>
-                        <div class="work-1">01</div>
-                        <div class="work-1">01</div>
-                        <div class="work-1">01</div>
-                        <div class="work-1">01</div>
-                        <div class="work-1">01</div>
-                        <div class="work-1">01</div>
-                        <div class="work-1">01</div>
-                        <div class="work-1">01</div>
-                        <div class="work-1">01</div>
-                    </div>
-                </div>
+            <div class="contact-heading text-8xl text-center mt-20 font-extrabold">
+                 Selected <em>Work</em>
             </div>
 
-           
+         <div class="section-four">
+            <main class="container mx-auto px-4 py-6">
+                <!-- Horizontal Slideshow -->
+                
+                <div class="overflow-x-hidden w-full">
+                  
+                <div class="flex gap-6 whitespace-nowrap items-center slideshow">
+               
+                    <!-- Slide 1 -->
+                    <div class="slide-item bg-white shadow-lg rounded-lg cursor-pointer w-64 h-40 flex-shrink-0">
+                        <img src="https://via.placeholder.com/400x200" alt="Slide 1" class="w-full h-full object-cover rounded-lg">
+                    </div>
 
+                    <!-- Slide 2 -->
+                    <div class="slide-item bg-white shadow-lg rounded-lg cursor-pointer w-64 h-40 flex-shrink-0">
+                        <img src="https://via.placeholder.com/400x200" alt="Slide 2" class="w-full h-full object-cover rounded-lg">
+                    </div>
+
+                    <!-- Slide 3 -->
+                    <div class="slide-item bg-white shadow-lg rounded-lg cursor-pointer w-64 h-40 flex-shrink-0">
+                        <img src="https://via.placeholder.com/400x200" alt="Slide 3" class="w-full h-full object-cover rounded-lg">
+                    </div>
+
+                    <!-- Slide 3 -->
+                    <div class="slide-item bg-white shadow-lg rounded-lg cursor-pointer w-64 h-40 flex-shrink-0">
+                        <img src="https://via.placeholder.com/400x200" alt="Slide 4" class="w-full h-full object-cover rounded-lg">
+                    </div>
+
+                    <!-- Slide 3 -->
+                    <div class="slide-item bg-white shadow-lg rounded-lg cursor-pointer w-64 h-40 flex-shrink-0">
+                        <img src="https://via.placeholder.com/400x200" alt="Slide 5" class="w-full h-full object-cover rounded-lg">
+                    </div>
+
+                    <!-- Slide 3 -->
+                    <div class="slide-item bg-white shadow-lg rounded-lg cursor-pointer w-64 h-40 flex-shrink-0">
+                        <img src="https://via.placeholder.com/400x200" alt="Slide 6" class="w-full h-full object-cover rounded-lg">
+                    </div>
+                  </div>
+              </div>
+
+                <!-- Navigation Buttons -->
+                <div class="flex justify-between mt-4">
+                    <button class="prev-btn bg-gray-800 text-white px-4 py-2 rounded-full hover:bg-gray-700">← Scroll Left</button>
+                    <button class="next-btn bg-gray-800 text-white px-4 py-2 rounded-full hover:bg-gray-700">→ Scroll Right</button>
+                </div>
+
+
+                <!-- Enlarged View (Hidden by Default) -->
+                <div id="enlargedView" class="fixed inset-0 bg-gray-900 bg-opacity-90 hidden flex items-center justify-center z-50">
+                   <div class="bg-white rounded-lg shadow-lg flex overflow-hidden w-[90%] max-w-4xl">
+                    <div class="w-1/2">
+                    <img id="enlargedImage" src="" alt="Enlarged" class="w-full h-full object-cover">
+                    </div>
+                    <div class="w-1/2 p-6">
+                    <h2 id="enlargedTitle" class="text-2xl font-bold mb-4">Project Title</h2>
+                    <p id="enlargedDescription" class="text-sm text-gray-600">
+                        Description of the selected project. Add details about the project here, such as its purpose, technologies used, and other relevant information.
+                    </p>
+                    <button id="closeButton" class="mt-4 bg-red-600 text-white px-4 py-2 rounded hover:bg-red-700">
+                        Close
+                    </button>
+                    </div>
+                  </div>
+              </div>
+            </div>
+         
+            <div class="contact-heading text-white text-8xl text-center mt-20 font-extrabold">
+                 Selected <em>Work</em>
+            </div>
+
+                <!--section-5-->
+                <div class="section-five">
+                    <div class="welcome-to-my-digital-space">
+                        <p class="text-center"> Send me an email: info@skvr.com</p>
+                        <p>CREATED WITH (HEART EMOJI) FROM WOLVERHAMPTON. </p>
+                    </div>
+                </div>
+                 <!--end-->
             
-           <!--end-->
+                 <div class="thankyou text-white text-8xl text-center mt-20 font-extrabold">
+                 Thank<em>You</em>
+            </div>
 
-           
-
+         </main>
     </body>
 </html>
 
